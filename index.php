@@ -10,8 +10,10 @@ $myBicycle->printName();
 $myAirplane->printName();
 $myCar->printName();
 
-$firstShip = new Ship("Tranceatlantic", "'BestBuilt'", "1999", "Red", "Heavy Fuel Oil", "Passenger Ship", "700 Passengers");
-$secondShip = new Ship("Heavy Trans", "'Great Carrier'", "2020", "White", "Diesel Oil", "Container Ship", "Panamax");
+$passengerShip = new Ship("Tranceatlantic", "'BestBuilt'", "1999", "Red", "Heavy Fuel Oil", "Passenger Ship", "700 Passengers");
+$containerShip = new Ship("Heavy Trans", "'Great Carrier'", "2020", "White", "Diesel Oil", "Container Ship", "Panamax");
+$oilTanker = new Ship("Ocean Giant", "'Oil Tanker'", "2012", "White", "Heavy Fuel Oil", "Bulk Transport", "Panamax");
 
-$firstShip->printCharacteristics();
-$secondShip->printCharacteristics();
+$passengerShip->printCharacteristics();
+$containerShip->printCharacteristics();
+$oilTanker->printCharacteristics();

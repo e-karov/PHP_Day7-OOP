@@ -37,6 +37,6 @@ class Ship extends Vehicle
 
     public function printCharacteristics()
     {
-        echo "This ship is type {$this->type}, Model - {$this->model} with cpacity of {$this->capacity} and Make-year {$this->makeYear}.<br>";
+        echo "This ship is type '{$this->type}', Model - '{$this->model}' with cpacity class {$this->capacity} and Make-year {$this->makeYear}.<br>";
     }
 }
